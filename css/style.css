@@ -487,3 +487,25 @@ section.bottom {
   border-radius: 50%;
   background-color: #2196f3;
 }
+.mainsite::after {
+  display: flex;
+  content: "";
+  color: #2196f3;
+  position: absolute;
+  width: 53px;
+  height: 4px;
+  background: #2196f3;
+  border-radius: 2px;
+  top: 95.5px;
+}
+.portfoliosite::after {
+  display: flex;
+  content: "";
+  color: #2196f3;
+  position: absolute;
+  width: 53px;
+  height: 4px;
+  background: #2196f3;
+  border-radius: 2px;
+  top: 95.5px;
+}
