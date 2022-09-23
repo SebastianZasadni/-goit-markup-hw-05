@@ -56,7 +56,9 @@
             Efektywne rozwiązania<br />
             dla waszego biznesu
           </h1>
-          <button type="button" class="order-button">Zamów usługę</button>
+          <button type="button" class="order-button" data-modal-open>
+            Zamów usługę
+          </button>
         </div>
       </div>
       <section class="lorem-box">
@@ -403,5 +405,12 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close></button>
+      </div></div>
+
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
