@@ -280,23 +280,6 @@ section.bottom {
   justify-content: space-between;
   gap: 30px;
 }
-.project-card {
-  border-bottom: 1px solid #eeeeee;
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.project-card:hover {
-  border-bottom: 1px solid #eeeeee;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.project-card:focus {
-  border-bottom: 1px solid #eeeeee;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
 .project-header {
   font-weight: 700;
   font-size: 18px;
@@ -528,4 +511,49 @@ section.bottom {
   width: 370px;
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
+}
+.portfolio-describe {
+  position: absolute;
+  top: 214px;
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+  width: 370px;
+  background: rgba(33, 150, 243);
+  transition: 500ms;
+  margin: 0px;
+  opacity: 0;
+  padding: 49px 45px 49px 24px;
+  height: 80px;
+}
+.project-card {
+  position: relative;
+  border-bottom: 1px solid #eeeeee;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.project-card:hover .portfolio-describe {
+  opacity: 0.9;
+  height: 294px;
+  top: 0px;
+  transition: 500ms;
+}
+.project-card:focus .portfolio-describe {
+  opacity: 0.9;
+  height: 294px;
+  top: 0px;
+  transition: 500ms;
+}
+.project-card:hover {
+  border-bottom: 1px solid #eeeeee;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.project-card:focus {
+  border-bottom: 1px solid #eeeeee;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
