@@ -509,3 +509,23 @@ section.bottom {
   border-radius: 2px;
   top: 95.5px;
 }
+.workimg-card {
+  position: relative;
+}
+.workimg-describe {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 210px;
+  display: flex;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}
