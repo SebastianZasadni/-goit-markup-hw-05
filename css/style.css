@@ -574,26 +574,22 @@ section.bottom {
   visibility: hidden;
   pointer-events: none;
   transition: 350ms;
+  scale: 0.01;
   opacity: 0;
 }
-.modal {
+.backdrop {
+  transform: scale(1);
+  transition: 350ms;
+  opacity: 0.5;
   position: fixed;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
   width: 528px;
   height: 581px;
   top: 100px;
   left: 536px;
-  background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.9);
-  border-radius: 4px;
-  transform: scale(1);
-  transition: 350ms;
-  opacity: 0.5;
-}
-.backdrop {
-  width: 500px;
-  height: 500px;
-  background-color: black;
 }
 .x-btn {
   width: 18px;
