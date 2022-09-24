@@ -564,7 +564,7 @@ section.bottom {
   right: 8px;
   width: 30px;
   height: 30px;
-  background-color: #fff;
+  background-color: yellow;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
@@ -592,6 +592,10 @@ section.bottom {
   left: 536px;
 }
 .x-btn {
+  display: inline-block;
   width: 18px;
   height: 18px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
