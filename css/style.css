@@ -601,8 +601,8 @@ section.bottom {
 }
 .x-btn {
   position: absolute;
-  top: 9px;
-  left: 10px;
+  top: 5.5px;
+  left: 5.5px;
   display: inline-block;
   width: 18px;
   height: 18px;
