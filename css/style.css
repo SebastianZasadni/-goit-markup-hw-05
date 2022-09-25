@@ -601,10 +601,8 @@ section.bottom {
 }
 .x-btn {
   position: absolute;
-  left: 22.22%;
-  right: 16.67%;
-  top: 16.67%;
-  bottom: 22.22%;
+  top: 9px;
+  left: 10px;
   display: inline-block;
   width: 18px;
   height: 18px;
