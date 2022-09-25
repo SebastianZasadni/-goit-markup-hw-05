@@ -597,6 +597,11 @@ section.bottom {
   cursor: pointer;
 }
 .x-btn {
+  position: absolute;
+  left: 22.22%;
+  right: 16.67%;
+  top: 16.67%;
+  bottom: 22.22%;
   display: inline-block;
   width: 18px;
   height: 18px;
