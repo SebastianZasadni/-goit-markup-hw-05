@@ -575,6 +575,7 @@ section.bottom {
   top: 0px;
   left: 0px;
   transition: 750ms;
+  background-attachment: fixed;
 }
 .modal {
   position: fixed;
