@@ -568,10 +568,10 @@ section.bottom {
 }
 @keyframes changeScale {
   0% {
-    transform: rotate(0.5turn);
+    transform: scale(0.1);
   }
   100% {
-    transform: rotate(1turn);
+    transform: scale(1);
   }
 }
 .backdrop {
@@ -587,7 +587,7 @@ section.bottom {
 }
 .modal {
   animation-name: changeScale;
-  animation-duration: 750ms;
+  animation-duration: 2000ms;
   position: fixed;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
