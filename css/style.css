@@ -538,13 +538,15 @@ section.bottom {
   opacity: 0.9;
   height: 294px;
   top: 0px;
-  transition: 500ms;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project-card:focus .portfolio-describe {
   opacity: 0.9;
   height: 294px;
   top: 0px;
-  transition: 500ms;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project-card:hover {
   border-bottom: 1px solid #eeeeee;
