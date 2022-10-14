@@ -478,6 +478,7 @@ section.bottom {
 .mainsite::after {
   display: flex;
   content: "";
+  color: var(--light-blue);
   position: absolute;
   width: 53px;
   height: 4px;
@@ -488,6 +489,7 @@ section.bottom {
 .portfoliosite::after {
   display: flex;
   content: "";
+  position: absolute;
   width: 53px;
   height: 4px;
   background: var(--light-blue);
