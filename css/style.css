@@ -95,14 +95,8 @@ footer .container {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact-nav .contact-link:not(:first-child) {
-  margin-left: 50px;
-}
-.contact-nav .contact-link:hover:not(:first-child) {
-  margin-left: 50px;
-}
-.contact-nav .contact-link:focus:not(:first-child) {
-  margin-left: 50px;
+.contact-link:not(:last-child) {
+  margin-right: 30px;
 }
 .contact-link:hover {
   text-decoration: none;
